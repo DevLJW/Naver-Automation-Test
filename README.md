@@ -48,7 +48,7 @@
 ## 시나리오 테스트 내용 소개
 
 ### 0. 로그인 페이지 객체 패턴
- <img src="https://github.com/user-attachments/assets/36b85596-0317-4894-88c9-209b139adcd5" width="100%" height="60%">
+<video  src="https://github.com/user-attachments/assets/fd1d9ed4-5b2c-4849-888a-3c25805340c8" controls></video>
  <br>
  <br>
 
@@ -63,8 +63,12 @@ sendKeys()같은경우 봇에의해 감지가 되지만, 자바스크립트를 �
 
 
 
+
+
+
+
 ### 1. 네이버 메일 작성
-<video  src="https://github.com/user-attachments/assets/fd1d9ed4-5b2c-4849-888a-3c25805340c8" controls></video>
+<video  src="https://github.com/user-attachments/assets/0b397999-bdeb-41c5-8915-774f12d09b8f" controls></video>
  <br>
  <br>
  
