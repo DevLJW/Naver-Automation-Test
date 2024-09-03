@@ -15,9 +15,10 @@
 
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## 네이버 메일작성&포스트 글쓰기 자동화
-![테스트자동화](https://github.com/user-attachments/assets/25a59fcb-4042-4eb8-a1a2-ef2208a4690e)
+![테스트자동화](https://github.com/user-attachments/assets/5712be86-5d06-4a95-ba12-0313621309b5)
 <br>
 
 
