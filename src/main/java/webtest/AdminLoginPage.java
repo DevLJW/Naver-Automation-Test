@@ -23,7 +23,6 @@ public class AdminLoginPage {
 		WebElement password;
 		WebElement submit;
 		
-		private Clipboard clipboard;
 		
 		public AdminLoginPage(WebDriver driver) {
 			
@@ -39,19 +38,18 @@ public class AdminLoginPage {
 		
 		public void login() throws InterruptedException, UnsupportedFlavorException, IOException {
 			
-			//https://badong.tistory.com/242
 		
-			//selenium 자동화로 로그인 시, 자동입력 방지 문구 때문에 clipboard를 사용하여 복붙하여 데이터를 넣는다.
+			
 			JavascriptExecutor js = (JavascriptExecutor)driver;		
-	
+			// 빠른 타이핑이 아닌 붙혀넣는 효과 
 			js.executeScript("arguments[0].value=arguments[1]", email, "이메일");
-			Thread.sleep(1000);
+			Thread.sleep(2000);
+			
 			js.executeScript("arguments[0].value=arguments[1]", password, "패스워드");
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 	
-
-		
 			submit.click();
+		
 			
 		}
 		
