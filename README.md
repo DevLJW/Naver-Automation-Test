@@ -52,6 +52,12 @@
  <br>
  <br>
 
+시나리오 :<br>
+1. 네이버 로그인 페이지 접속
+2. 아이디, 패스워드 입력
+3. 로그인하기 버튼 클릭
+4. 종료
+
 로그인 같은 경우, 페이지 객체 패턴을 이용하여 코드를 작성 하였습니다.<br>
 Selenium을 사용하여 자동화 로그인 시, 자동방지입력 시스템이 작동되어 로그인을 할 수 없습니다.<br>
 js.executeScript()를 통하여 빠른타이핑이 아닌 붙혀넣기 효과로 구현을 했습니다.<br>
@@ -88,8 +94,19 @@ siwthchTo().frame(4) 다섯번째 프레임으로 이동 후,내용을 작성하
 
 <br><br>
 
+
+
+
+
+
+
+
+
+
+
+
 ### 3. 네이버 포스트 작성
- <img src="https://github.com/user-attachments/assets/36b85596-0317-4894-88c9-209b139adcd5" width="100%" height="60%">
+<video  src="https://github.com/user-attachments/assets/199e8e2e-c0f2-4aa0-b6ce-33cf03d7b6c2" controls></video>
  <br>
  <br>
  
