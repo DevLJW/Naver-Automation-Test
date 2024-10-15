@@ -30,7 +30,7 @@ public class NaverMailSend {
 		
 		// 크롬 드라이버 인스턴스로 초기화
 	    driver = new ChromeDriver();
-	    // 명시적 대기
+	    // 암시적 대기
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
 	    
 	    
